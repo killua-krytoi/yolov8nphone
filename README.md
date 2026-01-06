@@ -8,7 +8,7 @@ Clone de repository:
 
 `cd yolov8nphone`
 
-Installeer de afhankelijkheden (indien aanwezig):
+Installeer de afhankelijkheden:
 
 `pip install -r requirements.txt`
 
