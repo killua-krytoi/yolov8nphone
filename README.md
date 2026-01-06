@@ -4,7 +4,7 @@
 
 Clone de repository:
 
-`git clone <repository_link>`
+`git clone https://github.com/Art1on/yolov8nphone`
 `cd <project_map>`
 
 Installeer de afhankelijkheden (indien aanwezig):
