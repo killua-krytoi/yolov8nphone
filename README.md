@@ -4,7 +4,7 @@
 
 Clone de repository:
 
-`git clone https://github.com/Art1on/yolov8nphone`
+`git clone https://github.com/killua-krytoi/yolov8nphone`
 
 `cd yolov8nphone`
 
