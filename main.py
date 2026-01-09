@@ -5,7 +5,7 @@ from gpiozero import LED, Buzzer
 led = LED(14)
 buzzer = Buzzer(21)
 model = YOLO("yolov8n.pt")
-CELL_PHONE_CLASS_ID = 67  # ВАЖНО: у YOLOv8 телефон = 67, не 0
+CELL_PHONE_CLASS_ID = 67
 WARNING_SECONDS = 5
 start_time = None
 cap = cv2.VideoCapture(1)
