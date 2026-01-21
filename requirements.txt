@@ -1,8 +1,7 @@
-ultralytics
-opencv-python
-gpiozero
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch
 torchvision
 torchaudio
 ultralytics
+opencv-python-headless
+gpiozero
