@@ -1,11 +1,8 @@
 from ultralytics import YOLO
 import cv2
 import time
-from gpiozero import LED, Buzzer
-led = LED(14)
-buzzer = Buzzer(21)
 model = YOLO("yolov8n.pt")
-CELL_PHONE_CLASS_ID = 67
+CELL_PHONE_CLASS_ID = 0 #67-phone, 0-people
 WARNING_SECONDS = 5
 start_time = None
 cap = cv2.VideoCapture(1)
@@ -24,12 +21,6 @@ while True:
             start_time = time.time()
         elif time.time() - start_time >= WARNING_SECONDS:
             print("phone detected for 5 sec")
-            led.on()
-            buzzer.on()
     else:
         start_time = None
-        led.off()
-        buzzer.off()
 cap.release()
-led.off()
-buzzer.off()
