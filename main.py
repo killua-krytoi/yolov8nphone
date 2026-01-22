@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 import time
 model = YOLO("yolov8n.pt")
-CELL_PHONE_CLASS_ID = 0 #67-phone, 0-people
+CELL_PHONE_CLASS_ID = 0 #67-mobiel, 0-mens
 WARNING_SECONDS = 5
 start_time = None
 cap = cv2.VideoCapture(1)
