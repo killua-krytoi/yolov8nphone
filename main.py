@@ -17,6 +17,9 @@ while True:
     ret, frame = cap.read()
     if not ret:
         break
+    frame_count +=1
+    if frame_count % FRAMES != 0:
+        continue
     results = model(frame, imgsz=320, classes=[CELL_PHONE_CLASS_ID], verbose=False)
     phone_detected = False
     for box in results[0].boxes:
