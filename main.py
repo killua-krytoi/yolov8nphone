@@ -1,6 +1,4 @@
-from data.config import (CELL_PHONE_CLASS_ID,
-        led,
-        buzzer,
+from data.config import (CLASS_ID,
         FRAMES,
         cap,
         results,
@@ -18,17 +16,13 @@ def main():
             continue
         phone_detected = False
         for box in results[0].boxes:
-            if int(box.cls[0]) == CELL_PHONE_CLASS_ID:
+            if int(box.cls[0]) == CLASS_ID:
                 phone_detected = True
                 break
         if phone_detected:
             phone_detected_run()
         else:
             start_time = None
-            led.off()
-            buzzer.off()
     cap.release()
-    led.off()
-    buzzer.off()
 if __name__ == "__main__":
     main()
