@@ -2,7 +2,7 @@
 ### Waarshuwing
 Deze code werkt alleen op Linux, om code te gebruiken op Windows/MacOS kies `no-gpiozero` branch.
 
-Als code werkt niet, probeer om code te kopieren van `legacy` branch.
+Als code werkt niet of u heeft bugs, probeer dan om code te kopieren van `legacy` branch.
 
 ## Installatie
 
