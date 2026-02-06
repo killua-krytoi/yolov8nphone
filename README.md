@@ -2,6 +2,8 @@
 
 ## Installatie
 
+# Werkt alleen op Linux!!
+
 Clone de repository:
 
 `git clone https://github.com/killua-krytoi/yolov8nphone`
