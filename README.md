@@ -1,9 +1,8 @@
 # Gebruiksaanwijzing – main.py
-
-## Installatie
-
 ### Werkt alleen op Linux!!
 om code te gebruiken kies `no-gpiozero` branch.
+
+## Installatie
 
 
 
