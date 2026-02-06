@@ -5,6 +5,8 @@
 ### Werkt alleen op Linux!!
 om code te gebruiken kies `no-gpiozero` branch.
 
+
+
 Clone de repository:
 
 `git clone https://github.com/killua-krytoi/yolov8nphone`
