@@ -1,6 +1,7 @@
 # Gebruiksaanwijzing – main.py
-### Werkt alleen op Linux!!
-om code te gebruiken kies `no-gpiozero` branch.
+### Waarshuwing
+Deze code werkt alleen op Linux, om code te gebruiken op Windows/MacOS kies `no-gpiozero` branch.
+Als code werkt niet, probeer om code te kopieren van `legacy` branch.
 
 ## Installatie
 
