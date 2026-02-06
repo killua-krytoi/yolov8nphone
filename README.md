@@ -2,7 +2,7 @@
 
 ## Installatie
 
-### Werkt alleen op Linux!!, om code te gebruiken kies 'no-gpiozero' branch.
+### Werkt alleen op Linux!!, om code te gebruiken kies `no-gpiozero` branch.
 
 Clone de repository:
 
