@@ -1,6 +1,4 @@
 # Gebruiksaanwijzing – main.py
-### Waarschuwing
-om code te gebruiken kies `no-gpiozero` branch.
 
 ## Installatie
 
