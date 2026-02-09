@@ -1,9 +1,6 @@
 from ultralytics import YOLO
 import cv2
 import time
-from gpiozero import LED, Buzzer
-led = LED(14)
-buzzer = Buzzer(21)
 model = YOLO("yolov8n.pt")
 CELL_PHONE_CLASS_ID = 0 #67-mobiel, 0-mens
 WARNING_SECONDS = 0
@@ -30,12 +27,6 @@ while True:
         if start_time is None:
             start_time = time.time()
         elif time.time() - start_time >= WARNING_SECONDS:
-            led.on()
-            buzzer.beep(0.2, 0.2)
     else:
         start_time = None
-        led.off()
-        buzzer.off()
 cap.release()
-led.off()
-buzzer.off()
