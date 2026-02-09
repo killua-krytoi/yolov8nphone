@@ -1,4 +1,7 @@
 # Gebruiksaanwijzing – main.py
+### Waarshuwing
+
+Als code werkt niet of u heeft bugs, probeer dan om code te kopieren van `no-gpiozero-legacy` branch.
 
 ## Installatie
 
