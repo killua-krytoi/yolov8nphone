@@ -17,6 +17,8 @@ Clone de repository:
 Installeer de afhankelijkheden:
 
 `pip install -r requirements.txt`
+of
+`pip3 install -r requirements.txt`
 
 ## Uitvoeren
 
