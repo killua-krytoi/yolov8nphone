@@ -8,7 +8,7 @@ Als code werkt niet of u heeft bugs, probeer dan om code te kopieren van `legacy
 
 
 
-Clone de repository:
+Kopier de repository:
 
 `git clone https://github.com/killua-krytoi/yolov8nphone`
 
