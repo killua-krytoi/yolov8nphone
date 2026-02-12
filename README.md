@@ -1,6 +1,6 @@
 # Gebruiksaanwijzing – main.py
 ### Waarshuwing
-Deze code werkt alleen op Linux, om code te gebruiken op Windows/MacOS kies `no-gpiozero` branch.
+Deze code werkt alleen op RaspberryPi, om code te gebruiken op Windows/MacOS kies `no-gpiozero` branch.
 
 Als code werkt niet of u heeft bugs, probeer dan om code te kopieren van `legacy` branch.
 
