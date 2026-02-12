@@ -26,11 +26,7 @@ Start het script met:
 
 Gebruik bij voorkeur een virtuele omgeving:
 
-`python -m venv venv`
-
-`source venv/bin/activate` - macOS/Linux
-
-`venv\Scripts\activate` - Windows
+`source venv/bin/activate`
 
 
 Installeer daarna opnieuw de dependencies en voer het script uit.
