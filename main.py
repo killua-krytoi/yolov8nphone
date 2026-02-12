@@ -27,6 +27,7 @@ while True:
         if start_time is None:
             start_time = time.time()
         elif time.time() - start_time >= WARNING_SECONDS:
+            print("detected")
     else:
         start_time = None
 cap.release()
