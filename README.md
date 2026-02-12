@@ -1,5 +1,5 @@
 # Gebruiksaanwijzing – main.py
-### Werkt alleen op Linux!!
+### Werkt alleen op Raspberry Pi!!
 om code te gebruiken kies `no-gpiozero` branch.
 
 ## Installatie
