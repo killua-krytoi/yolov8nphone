@@ -4,6 +4,8 @@ Deze code werkt alleen op RaspberryPi, om code te gebruiken op Windows/MacOS kie
 
 Als code werkt niet of u heeft bugs, probeer dan om code te kopieren van `legacy` branch.
 
+Wanneer je code start, initialisatie kan duren tot paar minuten, als je wacht meer dan dat probeer kamera te veranderen [hier.](https://github.com/killua-krytoi/yolov8nphone/blob/main/data/config.py#L17)
+
 ## Installatie
 
 
