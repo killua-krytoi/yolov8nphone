@@ -33,6 +33,6 @@ Installeer daarna opnieuw de dependencies en voer het script uit.
 
 ## Wat doet het systeem?
 
-Code gebruikt AI model YOLOv8 die kan objecten detecten, maar code zoek alleen voor telefoon (ID = 67).
+Code gebruikt AI model YOLOv8 die kan objecten detecten, maar code zoekt alleen voor telefoon (ID = 67).
 
 Doordat raspberry pi 4 is niet zo sterk, ik moest code optimiseren. Op deze moment code maakt vaste resolutie van 320px320p, en stuurt naar ai alleen maar elke tiende frame.
